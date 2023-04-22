@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GardenShop" version="4">
+  <OBJECT>
+    <ID name="GardenShop" mc="Standard.Project" uid="12d03108-7c10-4eb7-b558-0d2cdcc5c48c"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[GardenShop]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="gardenshop" mc="Standard.Package" uid="5de9515d-5d1a-44aa-8795-63dbb13cb800"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="GardenShop" mc="Infrastructure.DiagramSet" uid="26e4ccc1-4911-42bf-b5ce-e5a4a456b19f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

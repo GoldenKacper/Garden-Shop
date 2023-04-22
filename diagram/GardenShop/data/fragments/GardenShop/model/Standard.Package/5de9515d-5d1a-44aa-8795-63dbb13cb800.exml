@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gardenshop" version="4">
+  <OBJECT>
+    <ID name="gardenshop" mc="Standard.Package" uid="5de9515d-5d1a-44aa-8795-63dbb13cb800"/>
+    <PID name="GardenShop" mc="Standard.Project" uid="12d03108-7c10-4eb7-b558-0d2cdcc5c48c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gardenshop]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Repository" mc="Standard.Class" uid="0ef668ee-f45f-4331-a1fe-7d825afc23bf"/>
+        <COMPID name="ClientRepository" mc="Standard.Class" uid="db02fe70-f9aa-4e82-b480-dfea2ad8bc64"/>
+        <COMPID name="ArticleRepository" mc="Standard.Class" uid="2d077e37-d641-47d2-a183-c6365e0d079c"/>
+        <COMPID name="ReceiptRepository" mc="Standard.Class" uid="fc97ee98-6954-40db-9dbe-19660a3385f0"/>
+        <COMPID name="Article" mc="Standard.Class" uid="0e9b91c7-95aa-4a8a-ac97-fdb6edc3acef"/>
+        <COMPID name="Tool" mc="Standard.Class" uid="53c5348e-d7b0-464e-9aab-75edfa2d8deb"/>
+        <COMPID name="Shears" mc="Standard.Class" uid="cbf540be-81e5-447f-9ac1-ba39c83a7bca"/>
+        <COMPID name="Shovel" mc="Standard.Class" uid="ac5de546-9d02-4e78-8bdb-aed822f029ac"/>
+        <COMPID name="Rake" mc="Standard.Class" uid="8f5abf36-583a-422b-9cdd-b3fec319f6f5"/>
+        <COMPID name="Chemical" mc="Standard.Class" uid="019c0e2c-d430-4b83-9e3f-1225a93370a2"/>
+        <COMPID name="Fertilizer" mc="Standard.Class" uid="e625e8f8-2fce-4b71-9701-800da668e82e"/>
+        <OBJECT>
+          <ID name="FertilizerType" mc="Standard.Enumeration" uid="ccccd7c3-1195-42fe-8ed6-f7f8c7e81d07"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[FertilizerType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="FlowerFertilizer" mc="Standard.EnumerationLiteral" uid="7c5ba5dd-5042-4894-bcff-12b6958ed24a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FlowerFertilizer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="FruitFertilizer" mc="Standard.EnumerationLiteral" uid="e4309c01-db40-405a-b220-acb45eddd8e1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[FruitFertilizer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="VegetableFertilizer" mc="Standard.EnumerationLiteral" uid="c6c0178b-030e-4ee6-97eb-f0c072890942"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[VegetableFertilizer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="9c9801c8-78ae-46b5-b2f2-ef5500790af6"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="65b54dcb-066e-4d71-98a6-bb25a487b6c8"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[It will be segment type]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="Pesticide" mc="Standard.Class" uid="b4ff9f1a-b6e1-4de6-beed-6878fd60b269"/>
+        <COMPID name="Plant" mc="Standard.Class" uid="2fb0d26e-e5cb-4eca-8544-168743369236"/>
+        <COMPID name="SeedBag" mc="Standard.Class" uid="f4e795c0-054d-4286-ad98-18b294a0239c"/>
+        <COMPID name="Seedling" mc="Standard.Class" uid="0be3419c-dc60-428a-bfaf-a6ba9315bab7"/>
+        <COMPID name="Bush" mc="Standard.Class" uid="1fb33be4-e081-4053-bc14-fb4c1f5fcf78"/>
+        <COMPID name="Tree" mc="Standard.Class" uid="30800a98-e9ae-4680-96a8-e190f9c3eeaf"/>
+        <COMPID name="SproutedPlant" mc="Standard.Class" uid="b07939d9-88c7-4ec5-84f7-2b45f4921e7b"/>
+        <COMPID name="Client" mc="Standard.Class" uid="a520e734-64d3-4078-bc5b-25716e95431a"/>
+        <COMPID name="Receipt" mc="Standard.Class" uid="78bcc440-6680-434b-8d95-ab9cce1835ff"/>
+        <COMPID name="ClientManager" mc="Standard.Class" uid="6980e2db-a322-4cac-890f-cbf7db95b8f3"/>
+        <COMPID name="ArticleManager" mc="Standard.Class" uid="a1e1154d-0ab4-4969-ba42-b072444dbf58"/>
+        <COMPID name="ReceiptManager" mc="Standard.Class" uid="44382a99-3845-4a2d-8fd7-17302952a69c"/>
+        <COMPID name="ptime" mc="Standard.Class" uid="f3794b56-480f-45ba-a8f0-63b2ea2b36d2"/>
+        <COMPID name="Predicate" mc="Standard.Class" uid="cfecdf7f-29c5-43f9-974d-e841632c3819"/>
+        <COMPID name="ArticleException" mc="Standard.Class" uid="ed7b4d69-0457-41cd-a8cf-5df899dfaae7"/>
+        <COMPID name="ClientException" mc="Standard.Class" uid="a8918b79-ea01-4a3f-91f1-2a048c5f2289"/>
+        <COMPID name="ReceiptException" mc="Standard.Class" uid="391d5fb0-bb19-4639-9414-f853edb3ed68"/>
+        <COMPID name="GardenShopException" mc="Standard.Class" uid="f292f583-2e8b-4cb4-b3e3-22ecf11f961a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Article" mc="Standard.ClassDiagram" uid="836659b8-2eb3-4e95-aff8-65e6a47fdb5a"/>
+        <COMPID name="Repository" mc="Standard.ClassDiagram" uid="aa8fa4bf-df5b-4011-94be-2d9f36c0dffa"/>
+        <COMPID name="Client" mc="Standard.ClassDiagram" uid="3c750b04-f335-4234-aa1b-2c104ecdb613"/>
+        <COMPID name="Receipt" mc="Standard.ClassDiagram" uid="aeeef0ed-5fcd-4207-a31d-eb2fc94d15b6"/>
+        <COMPID name="Manager" mc="Standard.ClassDiagram" uid="d14776cf-e6c4-4652-8151-4a03928bf03a"/>
+        <COMPID name="Exception" mc="Standard.ClassDiagram" uid="b5ee70a8-9a04-4e18-b272-6b51c94b71ad"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="3bc2912d-dcfc-41f7-9547-d17ac64022da"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

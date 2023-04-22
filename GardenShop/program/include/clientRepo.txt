@@ -1,0 +1,2 @@
+1;Tomasz;Duda;0
+2;Bartek;Wojtaszek;0
