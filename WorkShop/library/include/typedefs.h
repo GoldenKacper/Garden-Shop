@@ -14,7 +14,7 @@
 #include "predicate/NamePredicate.h"
 /*
 #include "predicate/BasePricePredicate.h"
-#include "predicate/FinalPrice.h"
+#include "predicate/FinalPricePredicate.h"
 #include "predicate/HasPermitPredicate.h"
 #include "predicate/RequiresPermitPredicate.h"
 #include "predicate/SurnamePredicate.h"
@@ -62,7 +62,7 @@ class NamePredicate;
 /// foreshadowing predicates' libraries
 /*
 class BasePricePredicate;
-class FinalPrice;
+class FinalPricePredicate;
 class HasPermitPredicate;
 class RequiresPermitPredicate;
 class SurnamePredicate;

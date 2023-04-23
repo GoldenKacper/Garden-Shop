@@ -2,3 +2,4 @@ Bush;1;12.4;Berry;7;30;200;249.4
 Tree;2;12.4;Oak;16;50;2300;4744.4
 Shovel;3;123.01;PlArmy;Saper;5.8;713.46
 SeedBag;4;1.5;tulip;2;3.5
+Fertilizer;5;34.4;Mercedes;Benz;D;41.28
