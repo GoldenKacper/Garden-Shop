@@ -13,7 +13,7 @@
     <a href="https://github.com/GoldenKacper/Garden-Shop"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/GoldenKacper/Garden-Shop">View Demo</a>
+    <a href="https://github.com/GoldenKacper/Garden-Shop">View Tutorials</a>
     .
     <a href="https://github.com/GoldenKacper/Garden-Shop/issues">Report Bug</a>
     .
