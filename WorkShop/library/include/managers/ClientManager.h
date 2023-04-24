@@ -31,7 +31,7 @@ public:
     /// \param surname - suranme of person
     /// \param hasPermit - Does person have permit for buying special chemicals (not required)
     /// \return pointer to created Client
-    const ClientPtr registerClient(const string &name, const string &surname, const bool &hasPermit = false);
+    const ClientPtr registerClient(const string& name, const string& surname, const bool &hasPermit = false);
     /// this metod remove given client with repository
     /// \param client - this client will be remove with repo
     void unregisterClient(const ClientPtr &client); //how do you remove 'const' and '&'

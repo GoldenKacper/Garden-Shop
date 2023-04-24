@@ -20,7 +20,7 @@ void ClientManager::setClientRepository(const ClientRepository &clientRepository
     ClientManager::clientRepository = clientRepository;
 }
 
-const ClientPtr ClientManager::registerClient(const string &name, const string &surname, const bool &hasPermit)  {
+const ClientPtr ClientManager::registerClient(const string& name, const string& surname, const bool& hasPermit) {
     if (name.empty()) throw ClientException(ClientException::exceptionEmptyName);
     if (surname.empty()) throw ClientException(ClientException::exceptionEmptySurname);
     ClientPtr client = make_shared<Client>(generateId<ClientRepository>(clientRepository), name, surname, hasPermit);
