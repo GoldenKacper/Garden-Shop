@@ -55,12 +55,11 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The program is written in C++ using CMake. I did it on a linux system (debian 64 bit). I used the CLion environment from Jet Brains. I was originally doing this project on a different repository. The Boost Test library was used to perform unit tests. The program uses interesting solutions like vector instead of ordinary arrays or shared pointers instead of ordinary pointers. Templates are also used to help make the code more universal. The project is divided into multiple folders for easy viewing and further expansion. The project includes all object-oriented programming paradigms. The documentation was entirely handmade by me and in every function except for the interface.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+These simple instructions will help you download and run the program.
 
 ### Prerequisites
 
