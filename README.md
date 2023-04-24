@@ -44,11 +44,11 @@ The program presents my approach to designing software for a garden shop. It's t
 
 Folders and their meaning (in the software itself):
 
-*model - data model classes
-*repositories - archival classes
-*managers - class of managers and only with their help the interface is operated, which significantly affects security
-*exceptions - my own exception handling classes
-*predicate - class predicates helpful in searching repositories
+* model - data model classes
+* repositories - archival classes
+* managers - class of managers and only with their help the interface is operated, which significantly affects security
+* exceptions - my own exception handling classes
+* predicate - class predicates helpful in searching repositories
 
 Everything in the program happens with the help of managers, which increases the security of the program and largely makes the program immune to improper behavior in the interface (sometimes by throwing an appropriate exception).
 
