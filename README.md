@@ -26,6 +26,7 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
+* [Diagrams](#Diagrams)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -39,19 +40,38 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+The program presents my approach to designing software for a garden shop. It's the biggest and most complex project I've done entirely by myself and one of the biggest ever. I know that the interface is not the most beautiful, but in this project my task was to focus as much as possible on learning and using object-oriented design paradigms. Personally, I am very satisfied with dividing the project into subfolders, which significantly improves readability.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+Folders and their meaning (in the software itself):
 
-Here's why:
+*model - data model classes
+*repositories - archival classes
+*managers - class of managers and only with their help the interface is operated, which significantly affects security
+*exceptions - my own exception handling classes
+*predicate - class predicates helpful in searching repositories
 
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Everything in the program happens with the help of managers, which increases the security of the program and largely makes the program immune to improper behavior in the interface (sometimes by throwing an appropriate exception).
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+What I learned during the project:
+
+* object-oriented programming
+* templates
+* predicates
+* typedefs
+* git using
+* simple CMake building
+* operator overloading
+* lambda functions
+
+What caused the most trouble:
+
+* at first I was overwhelmed with so much new material to learn
+* understanding the idea of predicates
+* It was a lot of fun with pointers and references and using them correctly, especially in manager classes
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
+
+## Diagrams
 
 ## Built With
 
