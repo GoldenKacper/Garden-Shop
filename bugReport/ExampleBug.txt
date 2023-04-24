@@ -1,0 +1,3 @@
+When I am into receipt options and choose 8, 9 or 10 program throws an exception, 
+that it don't have for example such client in repo but I saw in program, there was.
+
