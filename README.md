@@ -73,6 +73,13 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ## Diagrams
 
+![Diagram_1]()
+![Diagram_2]()
+![Diagram_3]()
+![Diagram_4]()
+![Diagram_5]()
+![Diagram_6]()
+
 ## Built With
 
 The program is written in C++ using CMake. I did it on a linux system (debian 64 bit). I used the CLion environment from Jet Brains. I was originally doing this project on a different repository. The Boost Test library was used to perform unit tests. The program uses interesting solutions like vector instead of ordinary arrays or shared pointers instead of ordinary pointers. Templates are also used to help make the code more universal. The project is divided into multiple folders for easy viewing and further expansion. The project includes all object-oriented programming paradigms. The documentation was entirely handmade by me and in every function except for the interface.
