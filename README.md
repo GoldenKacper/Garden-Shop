@@ -126,11 +126,12 @@ Distributed under the MIT License. See [LICENSE](https://github.com/GoldenKacper
 
 ## Authors
 
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
+* **Kacper Jagodziński** - *student of applied computer science at the Lodz University of Technology* - [GoldenKacper](https://github.com/GoldenKacper) - *Built Garden Shop Software*
 
 ## Acknowledgements
 
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+* [Git](https://git-scm.com/docs/gittutorial)
+* [Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [W3School](https://www.w3schools.com/cpp/default.asp)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/templates-cpp/)
 
