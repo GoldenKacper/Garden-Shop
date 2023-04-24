@@ -13,11 +13,11 @@
     <a href="https://github.com/GoldenKacper/Garden-Shop"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/GoldenKacper/Garden-Shop">View Tutorials</a>
+    <a href="https://github.com/GoldenKacper/Garden-Shop/tree/main/viedos">View Tutorials</a>
     .
-    <a href="https://github.com/GoldenKacper/Garden-Shop/issues">Report Bug</a>
+    <a href="https://github.com/GoldenKacper/Garden-Shop/tree/main/bugReport">Report Bug</a>
     .
-    <a href="https://github.com/GoldenKacper/Garden-Shop/issues">Request Feature</a>
+    <a href="https://github.com/GoldenKacper/Garden-Shop/tree/main/featureRequest">Request Feature</a>
   </p>
 </p>
 
