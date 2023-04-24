@@ -21,7 +21,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/GoldenKacper/Garden-Shop/total) ![Contributors](https://img.shields.io/github/contributors/GoldenKacper/Garden-Shop?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/GoldenKacper/Garden-Shop?style=social) ![License](https://img.shields.io/github/license/GoldenKacper/Garden-Shop) 
+![Downloads](https://img.shields.io/github/downloads/GoldenKacper/Garden-Shop/total) ![Contributors](https://img.shields.io/github/contributors/GoldenKacper/Garden-Shop?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/GoldenKacper/Garden-Shop?style=social)
 
 ## Table Of Contents
 
