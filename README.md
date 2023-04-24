@@ -26,7 +26,7 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Diagrams](#Diagrams)
+* [Diagrams](#diagrams)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -73,12 +73,14 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ## Diagrams
 
-![Diagram_1]()
-![Diagram_2]()
-![Diagram_3]()
-![Diagram_4]()
-![Diagram_5]()
-![Diagram_6]()
+Diagrams are also as pdf: [diagrams.pdf](https://github.com/GoldenKacper/Garden-Shop/blob/main/diagram/GardenShop/GardenShop_UML_Kacper_Jagodzinski_V2.pdf)
+
+![Diagram_1](images/diagram_1.png)
+![Diagram_2](images/diagram_2.png)
+![Diagram_3](images/diagram_3.png)
+![Diagram_4](images/diagram_4.png)
+![Diagram_5](images/diagram_5.png)
+![Diagram_6](images/diagram_6.png)
 
 ## Built With
 
