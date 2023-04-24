@@ -10,7 +10,7 @@
     Software used to operate the garden shop
     <br/>
     <br/>
-    <a href="https://github.com/GoldenKacper/Garden-Shop"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GoldenKacper/Garden-Shop/tree/main/WorkShop"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/GoldenKacper/Garden-Shop/tree/main/viedos">View Tutorials</a>
@@ -64,41 +64,37 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Download the C and C++ compiler
 
-* npm
+* gcc
 
-```sh
-npm install npm@latest -g
-```
+* g++
+
+Download CLion (development environment)
+
+* [CLion](https://www.jetbrains.com/clion/download/)
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
+1. Clone the repo
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/GoldenKacper/Garden-Shop.git
 ```
 
-3. Install NPM packages
+2. Open CLion and open the repo
 
-```sh
-npm install
-```
+3. Add a new configuration
 
-4. Enter your API in `config.js`
+4. Run the program
 
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The program is not very complicated to use and is well described, so follow the instructions and you should not have any problems.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For an example of how the program works, see [tutorials](https://github.com/GoldenKacper/Garden-Shop/tree/main/viedos)_
 
 ## Roadmap
 
