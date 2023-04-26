@@ -35,7 +35,7 @@
 
 ## About The Project
 
-The program presents my approach to designing software for a garden shop. It's the biggest and most complex project I've done entirely by myself and one of the biggest ever. I know that the interface is not the most beautiful, but in this project my task was to focus as much as possible on learning and using object-oriented design paradigms. Personally, I am very satisfied with dividing the project into subfolders, which significantly improves readability.
+The program presents my approach to designing software for a garden shop. At that time, it was the first such a large project in C++ that I made myself. Over time, I see the mistakes I made in it and in the next projects it will be better. I know that the interface is not the most beautiful, but in this project my task was to focus as much as possible on learning and using object-oriented design paradigms.
 
 Folders and their meaning (in the software itself):
 
