@@ -26,16 +26,11 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Diagrams](#diagrams)
 * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
+* [Diagrams](#diagrams)
 * [Acknowledgements](#acknowledgements)
 
 ## About The Project
@@ -58,7 +53,7 @@ What I learned during the project:
 * templates
 * predicates
 * typedefs
-* git using
+* using git
 * simple CMake building
 * operator overloading
 * lambda functions
@@ -71,6 +66,27 @@ What caused the most trouble:
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
+## Built With
+
+The program is written in C++ using CMake. I did it on a linux system (debian 64 bit). I used the CLion environment from Jet Brains. I was originally doing this project on a different repository. The Boost Test library was used to perform unit tests. The program uses interesting solutions like vector instead of ordinary arrays or shared pointers instead of ordinary pointers. Templates are also used to help make the code more universal. The project is divided into multiple folders for easy viewing and further expansion. The project includes all object-oriented programming paradigms. The documentation was entirely handmade by me and in every function except for the interface.
+
+
+## Usage
+
+The program is not very complicated to use and is well described, so follow the instructions and you should not have any problems.
+
+_For an example of how the program works, see [tutorials](https://github.com/GoldenKacper/Garden-Shop/tree/main/viedos)_
+
+
+## License
+
+Distributed under the Creative Commons License. See [LICENSE](https://github.com/GoldenKacper/Garden-Shop/blob/main/LICENSE.md) for more information.
+
+## Authors
+
+* **Kacper Jagodziński** - *student of applied computer science at the Lodz University of Technology* - [GoldenKacper](https://github.com/GoldenKacper) - *Built Garden Shop Software*
+
+
 ## Diagrams
 
 Diagrams are also as pdf: [diagrams.pdf](https://github.com/GoldenKacper/Garden-Shop/blob/main/diagram/GardenShop/GardenShop_UML_Kacper_Jagodzinski_V2.pdf)
@@ -81,76 +97,6 @@ Diagrams are also as pdf: [diagrams.pdf](https://github.com/GoldenKacper/Garden-
 ![Diagram_4](images/diagram_4.png)
 ![Diagram_5](images/diagram_5.png)
 ![Diagram_6](images/diagram_6.png)
-
-## Built With
-
-The program is written in C++ using CMake. I did it on a linux system (debian 64 bit). I used the CLion environment from Jet Brains. I was originally doing this project on a different repository. The Boost Test library was used to perform unit tests. The program uses interesting solutions like vector instead of ordinary arrays or shared pointers instead of ordinary pointers. Templates are also used to help make the code more universal. The project is divided into multiple folders for easy viewing and further expansion. The project includes all object-oriented programming paradigms. The documentation was entirely handmade by me and in every function except for the interface.
-
-## Getting Started
-
-These simple instructions will help you download and run the program.
-
-### Prerequisites
-
-Download the C and C++ compiler
-
-* gcc
-
-* g++
-
-Download CLion (development environment)
-
-* [CLion](https://www.jetbrains.com/clion/download/)
-
-
-### Installation
-
-1. Clone the repo
-
-```sh
-git clone https://github.com/GoldenKacper/Garden-Shop.git
-```
-
-2. Open CLion and open the repo
-
-3. Add a new configuration
-
-4. Run the program
-
-
-## Usage
-
-The program is not very complicated to use and is well described, so follow the instructions and you should not have any problems.
-
-_For an example of how the program works, see [tutorials](https://github.com/GoldenKacper/Garden-Shop/tree/main/viedos)_
-
-## Roadmap
-
-See the [open issues](https://github.com/GoldenKacper/Garden-Shop/issues) for a list of proposed features (and known issues).
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/GoldenKacper/Garden-Shop/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/GoldenKacper/Garden-Shop/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
-
-### Creating A Pull Request
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature`)
-3. Commit your Changes (`git commit -m 'Add some Feature'`)
-4. Push to the Branch (`git push origin feature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the Creative Commons License. See [LICENSE](https://github.com/GoldenKacper/Garden-Shop/blob/main/LICENSE.md) for more information.
-
-## Authors
-
-* **Kacper Jagodziński** - *student of applied computer science at the Lodz University of Technology* - [GoldenKacper](https://github.com/GoldenKacper) - *Built Garden Shop Software*
 
 ## Acknowledgements
 
